@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Movie</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="videoContainer">
+
+        <video id="video" playsinline controls>
+            <source src="videos/A.mp4" type="video/mp4">
+        </video>
+
+        <!-- Invisible YES click area -->
+        <button id="yesHotspot"
+                aria-label="Yes">
+        </button>
+
+        <!-- Invisible NO click area -->
+        <button id="noHotspot"
+                aria-label="No">
+        </button>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
